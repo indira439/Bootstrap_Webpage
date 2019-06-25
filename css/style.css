@@ -1,8 +1,94 @@
-div{
-    padding-left: 500px;
-    padding-right: 400px;
+body{
+  margin:0;
+  padding: 0;
+  font: 15px/1.5 Arial,Helvetica,Sans-serif;
 }
-blockquote{
-    border: 2px solid black;
-    text-align: center;
+header{
+  min-height: 70px;
+  background-color:black;
+  margin:0;
+  overflow: hidden;
+  border-bottom: 1px solid red;
+  position: fixed;
+  width: 100%;
 }
+.logo{
+  display: inline;
+}
+
+img{
+  width: 120px;
+  height: 80px;
+  padding-left: 20px;
+  padding-top:10px; 
+  padding-bottom: 5px
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+header li{
+  display: inline;
+  padding: 5px;
+}
+.navbar{
+  padding-top:20px;
+  float: right;
+  margin-top: 0;
+  padding-right: 50px;
+  font-size: 18px;
+}
+.navbar a:hover , h1 a:hover,.boxes a:hover,footer nav a:hover{
+  color: darkviolet;
+}
+.mainsection{
+  padding: 180px 180px;
+  min-height: 300px;
+  text-align: center;
+  background-image: url(../img/std.jpeg);
+  color: white;
+}
+.boxes a{
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+}
+.grid_4{
+  text-align: center;
+  padding-left: 150px;
+}
+.grid_4 ul{
+  list-style: none;
+}
+.grid_4 h2{
+  padding-left:50px;
+  text-align: center;
+}
+footer{
+  background-color:black;
+  float: left;  
+  min-height: 40px;
+  width: 100%;
+  border-top: 2px solid red;
+}
+footer p{
+  margin: 0;
+  padding: 0;
+}
+.copyright-links a{ 
+  border-bottom: 1px dotted white;
+}
+.social-links{
+  float:right;
+}
+.social-links li{
+  display: inline;
+  color:red;
+  font-size: 20px;
+}
+footer nav{
+  display: inline;
+}
+
+
+
