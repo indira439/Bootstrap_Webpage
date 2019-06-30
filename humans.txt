@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <indu>
+    <developer>
 
 # THANKS
 
-    <name>
+ 
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    HTML5 , CSS , BOOTSTRAP4 , jQuery, Modernizr, Normalize.css
